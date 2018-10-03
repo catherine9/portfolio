@@ -1,0 +1,63 @@
+html {
+  background-color: #000000;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.hero-banner {
+  height: 70vh;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.logo {
+  color: #fff;
+  display: block;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #fff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+hr {
+  margin: auto;
+  color: #fff;
+}
+
+.contact {
+  float: right;
+  color: #fff;
+}
+
+.card {
+  position: relative;
+  transition: all 500ms linear;
+  overflow: hidden;
+}
