@@ -16,34 +16,40 @@ html {
   display: block;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+label {
+  display: block;
 }
 
-input[type=submit] {
-  background-color: #fff;
-  color: white;
-  padding: 12px 20px;
+input, select, textarea {
+  font-size: 1.125rem;
+  border-color: #e2e2e2;
+}
+
+fieldset {
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+.opt {
+  color: #70ad55;
 }
 
-.container {
-  border-radius: 5px;
-  background-color: #fff;
-  padding: 20px;
+footer {
+  color: #fff;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: #e2e2e2;
+  border: none;
+  font-size: 1.25rem;
+  padding: .5em .75em;
+  color: #000;
+}
+
+.btn:hover {
+  background-color: #b387ff;
+  color: #e2e2e2;
+  transition: background-color 1s linear;
 }
 
 hr {
@@ -52,7 +58,7 @@ hr {
 }
 
 .contact {
-  float: right;
+  display: block;
   color: #fff;
 }
 
