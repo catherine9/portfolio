@@ -78,7 +78,7 @@ hr {
 
 .fill {
   position: relative;
-  transition: all 500ms linear;
+  transition: all 500ms ease-in;
   overflow: hidden;
   cursor: pointer;
 }
