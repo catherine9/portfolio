@@ -16,6 +16,17 @@ html {
   display: block;
 }
 
+li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+li a:hover {
+  color: #b387ff;
+  transition: all 500ms linear;
+}
+
 label {
   display: block;
 }
@@ -39,17 +50,16 @@ footer {
 }
 
 .btn {
-  background-color: #e2e2e2;
-  border: none;
+  border-color: #fff;
+  border-radius: 15px;
   font-size: 1.25rem;
-  padding: .5em .75em;
-  color: #000;
+  color: #fff;
+  background-color: none;
 }
 
 .btn:hover {
-  background-color: #b387ff;
+  border-color: #b387ff;
   color: #e2e2e2;
-  transition: background-color 1s linear;
 }
 
 hr {
@@ -62,8 +72,35 @@ hr {
   color: #fff;
 }
 
-.card {
+.fill {
+  filter: grayscale(100%);
+}
+
+.fill {
   position: relative;
   transition: all 500ms linear;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.fill:hover {
+  background-color: #e2e2e2;
+}
+
+.icon {
+  display: inline-block;
+  position: relative;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.icon:hover {
+  background-color: #b387ff;
+  transition: all 500ms linear;
+}
+
+.dino-content {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
 }
