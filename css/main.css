@@ -84,7 +84,7 @@ hr {
 }
 
 .fill:hover {
-  background-color: #e2e2e2;
+  filter: none;
 }
 
 .icon {
