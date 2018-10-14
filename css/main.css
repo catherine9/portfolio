@@ -11,6 +11,17 @@ html {
   background-position: center center;
 }
 
+.inner-hero-banner {
+  height: 70vh;
+  background-image: url(../images/rideau-banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .logo {
   color: #fff;
   display: block;
@@ -44,11 +55,6 @@ fieldset {
   color: #70ad55;
 }
 
-footer {
-  color: #fff;
-  padding: 1rem;
-}
-
 .btn {
   border-color: #fff;
   border-radius: 15px;
@@ -58,7 +64,7 @@ footer {
 }
 
 .btn:hover {
-  border-color: #b387ff;
+  border-color: #4b0082	;
   color: #e2e2e2;
 }
 
@@ -78,7 +84,7 @@ hr {
 
 .fill {
   position: relative;
-  transition: all 500ms ease-in;
+  transition: all 500ms ease-out;
   overflow: hidden;
   cursor: pointer;
 }
@@ -95,12 +101,18 @@ hr {
 }
 
 .icon:hover {
-  background-color: #b387ff;
-  transition: all 500ms linear;
+  background-color: #4b0082;
+  transition: all .1s linear;
 }
 
 .dino-content {
   text-decoration: none;
   color: #fff;
   display: inline-block;
+}
+
+footer {
+  background-color: #7f1ae5;
+  color: #fff;
+  padding: 1rem;
 }
