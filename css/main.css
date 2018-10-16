@@ -1,7 +1,7 @@
 html {
-  background-color: #000000;
+  background-color: #fff;
   font-family: 'Lato', sans-serif;
-  color: #fff;
+  color: #000;
 }
 
 .hero-banner {
@@ -23,14 +23,14 @@ html {
 }
 
 .logo {
-  color: #fff;
+  color: #000;
   display: block;
 }
 
 li a {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 li a:hover {
@@ -56,26 +56,26 @@ fieldset {
 }
 
 .btn {
-  border-color: #fff;
+  background-color: #ff7ca0;
   border-radius: 15px;
-  font-size: 1.25rem;
-  color: #fff;
+  border: none;
+  font-size: 1.125rem;
+  color: #000;
   background-color: none;
 }
 
 .btn:hover {
-  border-color: #4b0082	;
-  color: #e2e2e2;
+  background-color: #ffbacd;
 }
 
 hr {
   margin: auto;
-  color: #fff;
+  color: #000;
 }
 
 .contact {
   display: block;
-  color: #fff;
+  color: #000;
 }
 
 .fill {
@@ -101,7 +101,7 @@ hr {
 }
 
 .icon:hover {
-  background-color: #4b0082;
+  background-color: #ff7ca0;
   transition: all .1s linear;
 }
 
@@ -112,7 +112,15 @@ hr {
 }
 
 footer {
-  background-color: #7f1ae5;
+  background-color: #ffbacd;
   color: #fff;
   padding: 1rem;
+}
+
+h2, h3 {
+  color: #000;
+}
+
+.contact:hover {
+  color: #ff7ca0;
 }
