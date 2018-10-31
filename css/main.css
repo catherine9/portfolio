@@ -12,14 +12,10 @@ html {
 }
 
 .inner-hero-banner {
-  height: 70vh;
+  background-size: contain;
   background-image: url(../images/rideau-banner.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  background-position: center;
+  height: 40vh;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .logo {
@@ -123,4 +119,22 @@ h2, h3 {
 
 .contact:hover {
   color: #ff7ca0;
+}
+
+@media only screen and (min-width: 30em) {
+  .inner-hero-banner {
+    height: 53vh;
+  }
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .inner-hero-banner {
+    height: 86vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
 }
