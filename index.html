@@ -2,13 +2,16 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Catherine Legault | Portfolio</title>
+  <title>Portfolio · Catherine Legault</title>
+  <meta name="description" content="A simplistic portfolio website all on motion graphics">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Lato:400,900" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>
@@ -29,7 +32,7 @@
           <h1 class="push-0">
             <a class="personal" href="index.html">
               <i class="icon i-192">
-                <img class="personal push-0" src="images/logo.svg" alt="">
+                <img itemprop="image" class=" push-0" src="images/logo.svg" alt="">
               </i>
             </a>
           </h1>
@@ -38,7 +41,7 @@
       <nav class="unit xs-1-2 s-1-2 m-3-4 nav text-right" role=navigation>
         <ol class="nav list-group-inline push-0 giga">
           <li class="push-r">
-            <a class="inline-block push-0 contact" href="contact.html">Contact</a>
+            <a class="inline-block island-1-2 push-0 contact" href="contact.html">Contact</a>
           </li>
         </ol>
       </nav>
@@ -46,61 +49,70 @@
   </header>
 
   <main role="main" id="main" tabindex="0">
+    <div class="home-banner">
+    <img class="img-flex" src="images/home-banner.jpg" alt="">
+    <div class="info w-1">
+      <div class="wrapper grid grid-middle">
+        <div class="unit xs-1 s-1 m-1 l-1">
+          <h1 class="pad-t-1-2 push-none yotta">Welcome to my Portfolio website</h1>
+          <p class="pad-t-1-2 giga">Where design meets animation</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <section class="hero-banner chop relative push-0" id="hero-banner" aria-detail="video of logo animation">
-    </section>
-    <div class="grid grid-middle island-1-2" id="work">
+    <div class="grid grid-middle island-1-2 pad-t-1-2 pad-b-1-2" id="work">
       <a href="rideau.html" class="card unit xs-1 s-2 m-1-2 l-1-3">
         <div class="fill relative">
-          <img class="enter img-flex island-1-2" src="images/rideau.jpg" alt="">
+          <img itemprop="image" class="enter img-flex island-1-2" src="images/rideau.jpg" alt="">
           <div class="dino-content">
-            <h2 class="not-bold mega push-0 gutter-1-2">Branding & Motion</h2>
-            <h3 class="gutter-1-2">Rideau Carleton Raceway</h3>
+            <h2 itemprop="name" class="not-bold mega push-0 gutter-1-2">Branding & Motion</h2>
+            <h3 itemprop="name" class="gutter-1-2">Rideau Carleton Raceway</h3>
           </div>
         </div>
       </a>
       <a href="keyworth.html" class="card unit xs-1 s-1 m-1-2 l-1-3">
         <div class="relative fill">
-          <img class="enter img-flex island-1-2" src="images/keyworth.jpg" alt="">
+          <img itemprop="image" class="enter img-flex island-1-2" src="images/keyworth.jpg" alt="">
           <div class="dino-content">
-            <h2 class="not-bold mega push-0 gutter-1-2">Motion</h2>
-            <h3 class="gutter-1-2">Keyworth Project</h3>
+            <h2 itemprop="name" class="not-bold mega push-0 gutter-1-2">Motion</h2>
+            <h3 itemprop="name" class="gutter-1-2">Keyworth Project</h3>
           </div>
         </div>
       </a>
-      <a href="flow.html" class="card unit xs-1 s-1 m-1-2 l-1-3">
+      <a href="campaign.html" class="card unit xs-1 s-1 m-1-2 l-1-3">
         <div class="relative fill">
-          <img class="enter img-flex island-1-2" src="images/video-game.jpg" alt="">
+          <img itemprop="image" class="enter img-flex island-1-2" src="images/laura-dudas.jpg" alt="">
           <div class="dino-content">
-            <h2 class="not-bold mega push-0 gutter-1-2">Branding & Motion</h2>
-            <h3 class="gutter-1-2">Flowstate gaming</h3>
+            <h2 itemprop="name" class="not-bold mega push-0 gutter-1-2">Branding & Motion</h2>
+            <h3 itemprop="name" class="gutter-1-2">Laura Dudas Campaign</h3>
           </div>
         </div>
       </a>
-      <a href="broadcast.html" class="card unit xs-1 s-1 m-1-2 l-1-3">
+      <a href="promo.html" class="card unit xs-1 s-1 m-1-2 l-1-3">
         <div class="relative fill">
-          <img class="enter img-flex island-1-2" src="images/promo.jpg" alt="">
+          <img itemprop="image" class="enter img-flex island-1-2" src="images/promo.jpg" alt="">
           <div class="dino-content">
-            <h2 class="not-bold mega push-0 gutter-1-2">Motion</h2>
-            <h3 class="gutter-1-2">Promo Package</h3>
+            <h2 itemprop="name" class="not-bold mega push-0 gutter-1-2">Motion</h2>
+            <h3 itemprop="name" class="gutter-1-2">Promo Package</h3>
           </div>
         </div>
       </a>
-      <a href="reel.html" class="card unit xs-1 s-1 m-1-2 l-1-3">
+      <a href="algonquin.html" class="card unit xs-1 s-1 m-1-2 l-1-3">
         <div class="relative fill">
-          <img class="enter img-flex island-1-2" src="images/reel.jpg" alt="">
+          <img itemprop="image" class="enter img-flex island-1-2" src="images/calander.jpg" alt="">
           <div class="dino-content">
-            <h2 class="not-bold mega push-0 gutter-1-2">Motion</h2>
-            <h3 class="gutter-1-2">Motion reel</h3>
+            <h2 itemprop="name" class="not-bold mega push-0 gutter-1-2">Illustration & Motion</h2>
+            <h3 itemprop="name" class="gutter-1-2">Algonquin College Therapy Dogs</h3>
           </div>
         </div>
       </a>
       <a href="ui.html" class="card unit xs-1 s-1 m-1-2 l-1-3">
         <div class="relative fill">
-          <img class="enter img-flex island-1-2" src="images/ui-animation.jpg" alt="">
+          <img itemprop="image" class="enter img-flex island-1-2" src="images/ui-animation.jpg" alt="">
           <div class="dino-content">
-            <h2 class="not-bold mega push-0 gutter-1-2">Motion</h2>
-            <h3 class="gutter-1-2">Savoir Fare app animation</h3>
+            <h2 itemprop="name" class="not-bold mega push-0 gutter-1-2">UX & Motion</h2>
+            <h3 itemprop="name" class="gutter-1-2">Savoir Fare app animation</h3>
           </div>
         </div>
       </a>
@@ -109,20 +121,19 @@
       <div class="wrapper pad-t-2">
         <div class="grid grid-middle push-2" tabindex="0">
           <div class="unit xs-1 s-1 m-1-2 l-1-4 island-1-2">
-            <h2 class="push-0 tena bold">About me</h2>
+            <h2 itemprop="name" class="push-0 tena bold">About me</h2>
             <div class="embed embed-1by1">
-              <img class="embed-item push-2" src="images/profile.jpg" alt="">
+              <img itemprop="image" class="embed-item push-2" src="images/profile.jpg" alt="">
             </div>
           </div>
           <div class="unit unit-content-distribute xs-1 s-1 m-1-3 l-1-2 pad-t-1-2">
             <div>
-              <h3 class="gutter-1-2 push-0">Catherine Legault</h3>
-              <p class="gutter-1-2 mega push-1-2">Graphic Designer</p>
-              <p class="gutter-1-2 milli">I am a motion and branding designer based in Ottawa, Canada.
-                I love to experiment with different styles in the world of motion. Allowing myself
-                to go from simplistic all the way to a complex challenge. It makes a dull static image or design
-                look a whole lot better from a new perspective. I am gateful to be given opporunities to do freelance motion
-                design and branding for clients while juggling school, friends and family.</p>
+              <h3 itemprop="name" class="gutter-1-2 push-0">Catherine Legault</h3>
+              <p itemprop="name" class="gutter-1-2 mega push-1-2">Graphic Designer</p>
+              <p itemprop="description" class="gutter-1-2 milli">I am a motion and branding designer based in Ottawa, Canada.
+              I will be honest, I dislike sticking to one style when it comes to motion, and pink. It has to be experimented in multiple platforms.
+              I like to keep up with the trends so it gives a fresh feel for each project. I feel each design needs a connection of to give more definition of what each design
+            about.</p>
               </div>
             </div>
           </div>
@@ -132,53 +143,53 @@
     <footer class="footer pad-b pad-t-2 guter-1-2" role="contentinfo">
       <div class="grid wrapper pad-t-1-2 pad-b-1-2">
         <div class="unit xs-1 s-2-3 m-1-2 l-1-2">
-          <p class="micro push-0 bold">Catherine Legault 2019</p>
+          <p itemprop="name" class="micro push-0 bold">Catherine Legault 2019</p>
         </div>
         <div class="unit xs-1 s-2-3 m-1-2 l-1-2">
-          <p class="micro push-0">catherine.legault@rogers.com</p>
+          <p itemprop="email" class="micro push-0">catherine.legault@rogers.com</p>
         </div>
         <div class="unit xs-1 s-2-3 m-1-2 l-1-2">
-          <p class="micro push-0"><strong>Phone:</strong>(613) 854-7771</p>
+          <p itemprop="number" class="micro push-0"><strong>Phone:</strong>(613) 854-7771</p>
         </div>
         <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a class="socialmedia" href="https://www.behance.net/catherinel2b3f">
+          <a itemprop="url" class="socialmedia" href="https://www.behance.net/catherinel2b3f">
             <i class="icon i-32">
-              <img class="icon" src="images/behance.svg" alt="">
+              <img itemprop="image" class="icon" src="images/behance.svg" alt="">
             </i>
           </a>
         </div>
         <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a class="socialmedia" href="https://www.facebook.com/catherine.legaultdesign/?ref=bookmarks">
+          <a itemprop="url" class="socialmedia" href="https://www.facebook.com/catherine.legaultdesign/?ref=bookmarks">
             <i class="icon i-32">
-              <img class="icon" src="images/facebook.svg" alt="">
+              <img itemprop="image" class="icon" src="images/facebook.svg" alt="">
             </i>
           </a>
         </div>
         <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a class="socialmedia" href="https://www.instagram.com/catherine_legault_design/">
+          <a itemprop="url" class="socialmedia" href="https://www.instagram.com/catherine_legault_design/">
             <i class="icon i-32">
-              <img class="icon" src="images/instagram.svg" alt="">
+              <img itemprop="image" class="icon" src="images/instagram.svg" alt="">
             </i>
           </a>
         </div>
         <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a class="socialmedia" href="https://www.linkedin.com/in/catherine-legault-533b95111/">
+          <a itemprop="url" class="socialmedia" href="https://www.linkedin.com/in/catherine-legault-533b95111/">
             <i class="icon i-32">
-              <img class="icon" src="images/linkden.svg" alt="">
+              <img itemprop="image" class="icon" src="images/linkden.svg" alt="">
             </i>
           </a>
         </div>
         <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a class="socialmedia" href="https://twitter.com/CatherineLegau2?lang=en">
+          <a itemprop="url" class="socialmedia" href="https://twitter.com/CatherineLegau2?lang=en">
             <i class="icon i-32">
-              <img class="icon" src="images/twitter.svg" alt="">
+              <img itemprop="image" class="icon" src="images/twitter.svg" alt="">
             </i>
           </a>
         </div>
         <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a class="socialmedia" href="https://vimeo.com/user71069733">
+          <a itemprop="url" class="socialmedia" href="https://vimeo.com/user71069733">
             <i class="icon i-32">
-              <img class="icon" src="images/vimeo.svg" alt="">
+              <img itemprop="image" class="icon" src="images/vimeo.svg" alt="">
             </i>
           </a>
         </div>
