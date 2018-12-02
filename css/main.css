@@ -9,7 +9,7 @@ html {
 }
 
 .hero-banner {
-  height: 70vh;
+  height: 40vh;
   background-size: cover;
   background-image: url(../images/banner.jpg);
   background-repeat: no-repeat;
