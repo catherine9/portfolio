@@ -106,6 +106,10 @@ fieldset {
   background-color: #ffbacd;
 }
 
+.name {
+  color: #000;
+}
+
 hr {
   margin: auto;
   color: #000;
