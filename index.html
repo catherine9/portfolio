@@ -1,61 +1,13 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Portfolio · Catherine Legault</title>
-  <meta name="description" content="A simplistic portfolio website all on motion graphics">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Lato:400,900" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/site.css" rel="stylesheet">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="icon" type="image/png" href="favicon.png">
-</head>
+---
+layout: default
+---
 
-<body>
-  <ul class="skip-links">
-    <li>
-      <a href="#nav">Jump to nav</a>
-    </li>
-    <li>
-      <a href="#main">Jump to main</a>
-    </li>
-  </ul>
-
-  <header id="navbar" class="b-section" role="banner" tabindex="0">
-
-    <div class="push-0 pad-b-1-2 grid grid-middle gutter">
-      <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
-        <span>
-          <h1 class="push-0">
-            <a class="personal" href="index.html">
-              <i class="icon i-192">
-                <img itemprop="image" class="push-0" src="images/logo.svg" alt="">
-              </i>
-            </a>
-          </h1>
-        </span>
-      </div>
-      <nav class="unit xs-1 s-2-3 m-2-3 l-1-2 xl-1-2 nav text-center" role=navigation>
-        <ol class="nav list-group-inline pad-b-1-2 push-0 giga">
-          <li class="push-r">
-            <a class="inline-block push-0 contact mega" href="contact.html">Contact</a>
-          </li>
-        </ol>
-      </nav>
-    </div>
-  </header>
-
-  <main role="main" id="main" tabindex="0">
     <div class="img-flex home-banner pad-t-2 relative push-1-2">
     </div>
 
     <section class="grid" id="work">
-      <div class="unit [xs-1 s-1 m-1-2 l-1-2]">
-        <a class="hover-box block relative crop" href="rideau.html">
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+        <a class="hover-box block relative crop" href="{{site.baseurl}}/rideau">
           <div class="embed embed-3by2">
           <img class="hover-box-img embed-item" src="images/rideau.jpg" alt="">
         </div>
@@ -65,8 +17,8 @@
           </div>
         </a>
         </div>
-        <div class="unit [xs-1 s-1 m-1-2 l-1-2]">
-          <a class="hover-box block relative crop" href="rideau.html">
+        <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+          <a class="hover-box block relative crop" href="{{site.baseurl}}/campaign">
             <div class="embed embed-3by2">
             <img class="hover-box-img embed-item" src="images/laura-dudas.jpg" alt="">
           </div>
@@ -76,8 +28,8 @@
           </div>
         </a>
       </div>
-      <div class="unit [xs-1 s-1 m-1-2 l-1-2]">
-        <a class="hover-box block relative crop" href="rideau.html">
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+        <a class="hover-box block relative crop" href="{{site.baseurl}}/promo">
           <div class="embed embed-3by2">
           <img class="hover-box-img embed-item" src="images/promo.jpg" alt="">
         </div>
@@ -87,8 +39,8 @@
           </div>
         </a>
       </div>
-      <div class="unit [xs-1 s-1 m-1-2 l-1-2]">
-        <a class="hover-box block relative crop" href="rideau.html">
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+        <a class="hover-box block relative crop" href="{{site.baseurl}}/algonquin">
           <div class="embed embed-3by2">
           <img class="hover-box-img embed-item" src="images/calander.jpg" alt="">
         </div>
@@ -98,8 +50,8 @@
           </div>
         </a>
       </div>
-      <div class="unit [xs-1 s-1 m-1-2 l-1-2]">
-        <a class="hover-box block relative crop" href="rideau.html">
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+        <a class="hover-box block relative crop" href="{{site.baseurl}}/ui">
           <div class="embed embed-3by2">
           <img class="hover-box-img embed-item" src="images/ui-animation.jpg" alt="">
         </div>
@@ -132,60 +84,3 @@
           </div>
         </div>
       </article>
-    </main>
-    <footer class="footer pad-b pad-t-2 guter-1-2" role="contentinfo">
-      <div class="grid wrapper pad-t-1-2 pad-b-1-2">
-        <div class="unit xs-1 s-2-3 m-1-2 l-1-2">
-          <p itemprop="name" class="micro push-0 bold">@Catherine Legault 2019</p>
-        </div>
-        <div class="unit xs-1 s-2-3 m-1-2 l-1-2">
-          <p itemprop="email" class="micro push-0">catherine.legault@rogers.com</p>
-        </div>
-        <div class="unit xs-1 s-2-3 m-1-2 l-1-2">
-          <p itemprop="number" class="micro push-0"><strong>Phone:</strong> (613) 854-7771</p>
-        </div>
-        <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a itemprop="url" class="socialmedia" href="https://www.behance.net/catherinel2b3f">
-            <i class="icon i-32">
-              <img itemprop="image" class="icon" src="images/behance.svg" alt="">
-            </i>
-          </a>
-        </div>
-        <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a itemprop="url" class="socialmedia" href="https://www.facebook.com/catherine.legaultdesign/?ref=bookmarks">
-            <i class="icon i-32">
-              <img itemprop="image" class="icon" src="images/facebook.svg" alt="">
-            </i>
-          </a>
-        </div>
-        <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a itemprop="url" class="socialmedia" href="https://www.instagram.com/catherine_legault_design/">
-            <i class="icon i-32">
-              <img itemprop="image" class="icon" src="images/instagram.svg" alt="">
-            </i>
-          </a>
-        </div>
-        <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a itemprop="url" class="socialmedia" href="https://www.linkedin.com/in/catherine-legault-533b95111/">
-            <i class="icon i-32">
-              <img itemprop="image" class="icon" src="images/linkden.svg" alt="">
-            </i>
-          </a>
-        </div>
-        <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a itemprop="url" class="socialmedia" href="https://twitter.com/CatherineLegau2?lang=en">
-            <i class="icon i-32">
-              <img itemprop="image" class="icon" src="images/twitter.svg" alt="">
-            </i>
-          </a>
-        </div>
-        <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
-          <a itemprop="url" class="socialmedia" href="https://vimeo.com/user71069733">
-            <i class="icon i-32">
-              <img itemprop="image" class="icon" src="images/vimeo.svg" alt="">
-            </i>
-          </a>
-        </div>
-      </footer>
-    </body>
-  </html>

@@ -8,6 +8,18 @@ html {
   height: 70vh;
 }
 
+.portfolio-btn {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+}
+
 .hero-banner {
   height: 40vh;
   background-size: cover;
