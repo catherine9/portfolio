@@ -4,10 +4,6 @@ html {
   color: #000;
 }
 
-.banner {
-  height: 70vh;
-}
-
 .hero-banner {
   height: 40vh;
   background-size: cover;
@@ -186,16 +182,20 @@ h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 
-.nav-btn a,
-.next-prev-disabled {
-  color: #fff;
-  text-decoration: none;
-  margin-right: 2em;
+.btn-home a:hover {
+  font-size: 105%;
+  transition-timing-function: ease;
+  transition: 0.2s;
 }
 
-.next-prev-disabled {
-  color: #9f9aa4;
-  cursor: not-allowed;
+.error-page-wrapper {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
 }
 
 @media only screen and (min-width: 30em) {
