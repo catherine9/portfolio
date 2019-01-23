@@ -18,6 +18,9 @@ html {
   background-repeat: no-repeat;
 }
 
+.email {
+  color: #000;
+}
 
 .inner-hero-banner {
   background-size: contain;
