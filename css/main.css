@@ -208,19 +208,6 @@ h2, h3 {
   background-color: none;
 }
 
- section {
-   max-width: 57%;
-   margin: auto;
-   text-align: center;
- }
-
- .story-wrapper {
-   height: 100vh;
-   display: flex;
-   align-items: center;
-   color: #fff;
- }
-
 @media only screen and (min-width: 30em) {
   .inner-hero-banner {
     height: 53vh;
