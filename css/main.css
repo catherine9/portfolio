@@ -4,6 +4,10 @@ html {
   color: #000;
 }
 
+.web-banner {
+  background-image: url(../images/web-banner.jpg)
+}
+
 .hero-banner {
   height: 40vh;
   background-size: cover;
