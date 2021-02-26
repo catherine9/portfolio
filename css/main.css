@@ -33,20 +33,6 @@ html {
   background-repeat: no-repeat;
 }
 
-.ui-banner {
-  background-size: contain;
-  background-image: url(../images/ui-banner.jpg);
-  height: 40vh;
-  background-repeat: no-repeat;
-}
-
-.promo-banner {
-  background-size: contain;
-  background-image: url(../images/promo-banner.jpg);
-  height: 40vh;
-  background-repeat: no-repeat;
-}
-
 .dog-banner {
   background-size: contain;
   background-image: url(../images/dog-banner.jpg);
@@ -64,7 +50,7 @@ html {
 
 .home-banner {
   background-image: url(../images/website-banner.jpg);
-  height: 50%;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
