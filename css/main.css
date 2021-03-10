@@ -44,12 +44,13 @@ html {
 }
 
 
-.web-banner {
-  display: grid;
-  min-width: 350px; // Do not resize to smaller than this.
-  width: 100%;
+.home-banner {
+  background-image: url(../images/website-banner.jpg);
   height: 100%;
-  object-fit: cover; // Using this so the image can be any size and still look halfway decent.
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .logo {
