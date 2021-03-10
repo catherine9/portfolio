@@ -4,11 +4,6 @@ html {
   color: #000;
 }
 
-.web-banner {
-  background-image: url(../images/web-banner.jpg);
-  background-size: cover;
-}
-
 .hero-banner {
   height: 40vh;
   background-size: cover;
@@ -49,7 +44,7 @@ html {
 }
 
 
-.home-banner {
+.web-banner {
   background-image: url(../images/website-banner.jpg);
   height: 100%;
   background-position: center;
