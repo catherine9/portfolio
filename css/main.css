@@ -4,20 +4,6 @@ html {
   color: #000;
 }
 
-.hero-banner {
-  height: 40vh;
-  background-size: cover;
-  background-image: url(../images/banner.jpg);
-  background-repeat: no-repeat;
-}
-
-.laura-banner {
-  height: 70vh;
-  background-size: cover;
-  background-image: url(../images/laura-banner.jpg);
-  background-repeat: no-repeat;
-}
-
 .email {
   color: #000;
 }
@@ -28,21 +14,6 @@ html {
   height: 40vh;
   background-repeat: no-repeat;
 }
-
-.dog-banner {
-  background-size: contain;
-  background-image: url(../images/dog-banner.jpg);
-  height: 40vh;
-  background-repeat: no-repeat;
-}
-
-.pups-banner {
-  background-size: contain;
-  background-image: url(../images/space-pups-banner.jpg);
-  height: 40vh;
-  background-repeat: no-repeat;
-}
-
 
 .home-banner {
   background-image: url(../images/website-banner.jpg);
@@ -229,40 +200,6 @@ h2, h3 {
 
   .inner-hero-banner {
     height: 86vh;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-  .ui-banner {
-    height: 65vh;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-
-  .promo-banner {
-    height: 65vh;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-
-  .laura-banner {
-    height: 65vh;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-
-  .dog-banner {
-    height: 65vh;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-
-  .pups-banner {
-    height: 65vh;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
