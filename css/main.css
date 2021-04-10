@@ -18,6 +18,22 @@ html {
   position: relative;
 }
 
+.social-links {
+  background-color: var(--color-light-gray);
+}
+
+.social-link {
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--color-white);
+}
+
+.social-link:hover {
+  color: var(--color-light-purple);
+}
+
 .logo {
   color: #000;
   display: block;
