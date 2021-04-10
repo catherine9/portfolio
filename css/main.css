@@ -34,6 +34,12 @@ html {
   color: var(--color-light-purple);
 }
 
+.copyright {
+  font-family: var(--font-primary);
+  color: #ACACAC;
+  font-weight: 300;
+}
+
 .logo {
   color: #000;
   display: block;
