@@ -36,7 +36,7 @@ html {
 
 .copyright {
   font-family: var(--font-primary);
-  color: #ACACAC;
+  color: #acacac;
   font-weight: 300;
 }
 
@@ -48,7 +48,7 @@ html {
 li a {
   display: inline-block;
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
 }
 
 li a:hover {
