@@ -6,7 +6,7 @@ html {
 }
 
 .email {
-  color: #000;
+  color: #ffff;
 }
 
 .home-banner {
@@ -86,7 +86,7 @@ fieldset {
 }
 
 .name {
-  color: #000;
+  color: #9d4e9e;
 }
 
 hr {
@@ -153,7 +153,7 @@ h2 {
 }
 
 .contact:hover {
-  color: #e7004c;
+  color: var(--color-light-purple);
 }
 
 .nav-btn-wrapper {
