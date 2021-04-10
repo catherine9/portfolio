@@ -22,7 +22,7 @@ html {
   background-color: var(--color-light-gray);
 }
 
-.social-link {
+.social-links {
   text-decoration: none;
   font-family: var(--font-secondary);
   text-transform: uppercase;
