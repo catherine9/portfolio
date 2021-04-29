@@ -71,7 +71,7 @@ h2 {
 }
 
 .enter-here-btn {
-    background-color: #8057a4; 
+    background-color: #8057a4;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -104,7 +104,7 @@ h2 {
 
 .copyright {
   font-family: var(--font-primary);
-  color: #acacac;
+  color: #ffffff;
   font-weight: 300;
 }
 
