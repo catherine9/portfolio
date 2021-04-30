@@ -17,7 +17,7 @@ html
 h1 { line-height:100px; margin:0; }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("website-banner.jpg");
+  background-image: url("website-banner.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -265,7 +265,7 @@ h2 {
 
 @media only screen and (min-width: 60em) {
 
-  .home-banner {
+  .home-page {
   position: relative;
   overflow: hidden;
   max-height: 100%;
