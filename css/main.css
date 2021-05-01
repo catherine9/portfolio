@@ -261,10 +261,10 @@ h2 {
   .info {
     position: absolute;
     bottom: 0;
-    left: 20%;
+    left: 25%;
     color: #fff;
     width: 100%;
-    transform: translate(-30%);
+    transform: translate(-35%);
   }
 
 
