@@ -108,7 +108,7 @@ fieldset {
 }
 
 .btn:hover {
-  background-color: #ffbacd;
+  background-color: #8057a4;
 }
 
 .name {
@@ -133,7 +133,7 @@ hr {
 }
 
 .icon:hover {
-  background-color: #ff7ca0;
+  background-color: #8057a4;
   transition: all .1s linear;
 }
 
@@ -261,7 +261,7 @@ h2 {
   .info {
     position: absolute;
     bottom: 0;
-    left: 25%;
+    left: 35%;
     color: #fff;
     width: 100%;
     transform: translate(-35%);
