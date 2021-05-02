@@ -260,7 +260,7 @@ h2 {
 
   .info {
     position: absolute;
-    bottom: 5;
+    bottom: -5;
     left: 35%;
     color: #fff;
     width: 100%;
