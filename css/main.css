@@ -99,6 +99,11 @@ fieldset {
   color: #70ad55;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
 .btn {
   border-radius: 15px;
   border: none;
