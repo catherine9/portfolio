@@ -29,15 +29,15 @@ h2 {
 }
 
 .enter-here-btn {
-    background-color: #8057a4;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+  background-color: #8057a4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
 .enter-here-btn:hover {
   background-position: right bottom;
@@ -105,7 +105,7 @@ fieldset {
 }
 
 .icon-name {
-
+  color: #9d4e9e;
 }
 
 .btn {
