@@ -294,7 +294,7 @@ h2 {
   .info {
     position: absolute;
     bottom: -2;
-    left: 25%;
+    right: 25%;
     color: #fff;
     width: 100%;
     transform: translate(-25%);
