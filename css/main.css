@@ -244,23 +244,6 @@ h2 {
     height: 53vh;
   }
 
-  .ui-banner {
-    height: 40vh;
-  }
-
-  .promo-banner {
-    height: 40vh;
-  }
-
-  .promo-banner {
-    height: 40vh;
-  }
-
-  .dog-banner {
-    height: 40vh;
-  }
-}
-
 
 @media only screen and (min-width: 38em) {
 
@@ -293,11 +276,11 @@ h2 {
 
   .info {
     position: absolute;
-    bottom: -2;
-    right: 25%;
+    bottom: 0;
+    right: -35%;
     color: #fff;
     width: 100%;
-    transform: translate(-25%);
+    transform: translate(-35%);
   }
 
 
