@@ -15,7 +15,7 @@ html {
   margin-right: auto;
   max-width: 51em;
   width: 100%;
-  background-color: #e1d9e8;
+  background-color: #645dd7;
 }
 
 }
@@ -39,7 +39,7 @@ h2 {
 }
 
 .enter-here-btn {
-  background-color: #8057a4;
+  background-color: #645dd7;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -120,7 +120,7 @@ fieldset {
 }
 
 .title-name {
-  color: #9d4e9e;
+  color: #ff4242;
 }
 
 .btn {
