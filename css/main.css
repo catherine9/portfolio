@@ -124,7 +124,7 @@ fieldset {
 }
 
 .title-name {
-  color: #ff4242;
+  color: #ffffff;
 }
 
 .btn {
@@ -204,6 +204,10 @@ footer {
 }
 
 h2 {
+  color: #ffffff;
+}
+
+.name-title {
   color: #ffffff;
 }
 
