@@ -42,6 +42,10 @@ h2 {
   margin:0 0 20px;
 }
 
+.name-title {
+  color:#ffffff;
+}
+
 .enter-here-btn {
   background-color: #645dd7;
   border: none;
