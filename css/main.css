@@ -121,9 +121,8 @@ fieldset {
 }
 
 .img-flex {
-  display: block;
-  width: 100%;
-  border-bottom: .51em;
+  display: block ;
+  width: 150%;
 }
 
 .icon-name {
