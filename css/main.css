@@ -7,7 +7,7 @@ html {
 }
 
 .container {
-  display: inline-block;
+  display: block;
   gap: 10px;
   justify-content: center;
 }
